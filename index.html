@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dictionary</title>
+    <script src="https://kit.fontawesome.com/a44b59e4f7.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <i class="fa-solid fa-book-atlas" style="width: 100px"></i>
+        <label class="switch">
+          <input type="checkbox" id="dark-mode-toggle" />
+          <span class="slider"></span>
+        </label>
+      </header>
+      <main class="body">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search..." />
+          <i class="fa-solid fa-magnifying-glass" id="search-button"> </i>
+        </div>
+        <div class="mainword">
+          <div class="word">
+            <h1 id="mainmainword">English Dictionary</h1>
+            <div class="text">By DevPetrate</div>
+          </div>
+          <div class="playbtn">
+            <i class="fa-solid fa-circle-play"></i>
+          </div>
+        </div>
+        <div class="meaningcontainer"></div>
+
+        <hr />
+        <div class="footer">
+          <p class="footerheader">Source</p>
+          <a href="https://devpetrate.github.io/myportfolio" class="footerlink" target="_blank"
+            >https://devpetrate.com</a
+          >
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
