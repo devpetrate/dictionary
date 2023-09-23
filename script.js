@@ -93,10 +93,12 @@ volume.addEventListener("click", () => {
 });
 
 function handleSearch() {
+    meaningcontainer.innerHTML = "";
     const wordIn = searchInput.value.trim();
     if (wordIn !== "") {
         dictionary(API + wordIn);
     }
+
 }
 searchButton.addEventListener("click", handleSearch);
 

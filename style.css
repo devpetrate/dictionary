@@ -18,6 +18,13 @@ body {
   font-family: "Open Sans", sans-serif;
   padding: 2rem;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+}
 
 /* Dark mode styles */
 .dark-mode {
@@ -170,6 +177,7 @@ i {
 .wordsynonyms {
   display: flex;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 .wordsynonyms .synonyms {
   text-transform: lowercase;
